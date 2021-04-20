@@ -13,7 +13,7 @@ function homePageHTML(moviesHTML) {
             <title>Movie Review Blog!</title>
         </head>
         <body>
-                <h1>Movie Review Blog!</h1>
+                <h1>Movie Review Blog!!</h1>
                 <p>Click a movie title to select from the list below, or use 'Search' to filter the list</p>
                 <form>
                   <label id="searchMovies">Search movies</label>

@@ -32,8 +32,8 @@ function reviewPageHTML(movie, reviews) {
                 </section>
                 <section>
                   <h2>Links</h2>
-                  <p><a href="../../" title="Return to Movie page"><i class="fas fa-hand-point-left"></i></a>Return to Home Page</p>
-                  <p><a href="../${movie}" title="Return to Home page"><i class="fas fa-hand-point-left"></i></a>Return to ${movie} movie page</p>
+                  <p><a href="../../" title="Return to Movie page"><i class="fas fa-hand-point-left"></i></a> Return to Home Page</p>
+                  <p><a href="../${movie}" title="Return to Home page"><i class="fas fa-hand-point-left"></i></a> Return to ${movie} movie page</p>
                 </section>
             </body>
         </html>
@@ -55,9 +55,9 @@ function reviewPageHandler(request, response) {
         <button name="name" value="${key}" aria-label="Delete ${movie} review by ${key}">
           <i class="fas fa-trash-alt"></i> 
         </button>
+        <span class = "reviewer">${key}:</span> 
+        <span class="review">${value}</span>
       </form>
-      <span class = "reviewer">${key}:</span> 
-      <span class="review">${value}</span>
     </li>`;
   }
   //return moviePageHTML

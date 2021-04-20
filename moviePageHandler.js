@@ -28,7 +28,7 @@ function moviePageHTML(movie, reviews) {
                 </section>
                 <section>
                     <h2>Links</h2>
-                    <p><a href="../" title="Return to Home page"><i class="fas fa-hand-point-left"></i></a>Still looking for insipration? Return to the home page to find another movie</p>
+                    <p><a href="../" title="Return to Home page"><i class="fas fa-hand-point-left"></i></a> Still looking for insipration? Return to the home page to find another movie</p>
                 </section>  
             </body>
         </html>

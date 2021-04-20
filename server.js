@@ -8,7 +8,11 @@ const deleteReviewHandler = require("./deleteReviewHandler.js");
 const express = require("express");
 const server = express();
 
-const PORT = 3000;
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 3000;
+}
+//const PORT = 3000;
 server.listen(PORT, () => console.log("listening on http://localhost:${PORT}"));
 
 const staticHandler = express.static("public");
