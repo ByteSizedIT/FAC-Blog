@@ -1,9 +1,9 @@
-const homePageHandler = require("./homePageHandler.js");
-const addMovieHandler = require("./addMovieHandler.js");
-const moviePageHandler = require("./moviePageHandler.js");
-const reviewPageHandler = require("./reviewPageHandler.js");
-const postReviewHandler = require("./addReviewHandler.js");
-const deleteReviewHandler = require("./deleteReviewHandler.js");
+const homePageHandler = require("./routes/homePageHandler.js");
+const addMovieHandler = require("./routes/addMovieHandler.js");
+const moviePageHandler = require("./routes/moviePageHandler.js");
+const reviewPageHandler = require("./routes/reviewPageHandler.js");
+const postReviewHandler = require("./routes/addReviewHandler.js");
+const deleteReviewHandler = require("./routes/deleteReviewHandler.js");
 
 const express = require("express");
 const server = express();
